@@ -1,0 +1,7 @@
+{
+	"macaddr":"E8:DB:84:C6:05:9A",
+	"alias":"Internal Temperature",
+	"type":"temperature",
+	"internalId":"TEMP-01",
+	"sampleInterval":60
+}
