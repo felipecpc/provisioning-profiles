@@ -1,7 +1,8 @@
 {
 "macaddr":"E8:DB:84:C6:05:9A",
 "alias":"Internal Temperature",
-"type":"temperature",
+"server":"192.168.0.180",
+"type":["temperature"],
 "internalId":"TEMP-01",
 "sampleInterval":60
 }
