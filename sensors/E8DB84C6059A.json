@@ -1,8 +1,8 @@
 {
-"macaddr":"E8:DB:84:C6:05:9A",
-"alias":"Internal Temperature",
-"server":"192.168.0.180",
-"type":["temperature"],
-"internalId":"TEMP-01",
-"sampleInterval":60
+	"macaddr":"E8:DB:84:C6:05:9A",
+	"alias":"Internal Temperature/Location",
+	"server":"192.168.0.180",
+	"type":["temperature","gps"],
+	"internalId":"TEMP-LOC-01",
+	"sampleInterval":60
 }
