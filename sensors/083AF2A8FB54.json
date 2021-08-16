@@ -1,0 +1,8 @@
+{
+	"macaddr":"08:3A:F2:A8:FB:54",
+	"alias":"Weather Info",
+	"server":"192.168.164.201",
+	"type":["BME280"],
+	"internalId":"BME280",
+	"sampleInterval":60
+}
