@@ -1,0 +1,8 @@
+{
+	"macaddr":"08:3A:F2:AA:7D:F8",
+	"alias":"Water Flow Info",
+	"server":"192.168.50.201",
+	"type":["YFS201"],
+	"internalId":"YFS201",
+	"sampleInterval":60
+}
