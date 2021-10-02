@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>winter_2021</name>
-	<gx:CascadingStyle kml:id="__managed_style_13985520D21D753141AD">
+	<gx:CascadingStyle kml:id="__managed_style_2C0A086E4C1D754CE008">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -10,58 +10,71 @@
 					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 				</Icon>
 			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
 			<LineStyle>
 				<color>ff6abb66</color>
-				<width>11.25</width>
+				<width>6</width>
 			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
 			<BalloonStyle>
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0A65C429721D753141AC">
+	<gx:CascadingStyle kml:id="__managed_style_12AF02B3031D754CE008">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_04E71052011D754CE008">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_01C3945B3B1D753141AD</styleUrl>
+			<styleUrl>#__managed_style_12AF02B3031D754CE008</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_13985520D21D753141AD</styleUrl>
+			<styleUrl>#__managed_style_2C0A086E4C1D754CE008</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_1C187176771D7530AE2A">
+	<gx:CascadingStyle kml:id="__managed_style_127181B64E1D754C444E">
 		<Style>
 			<IconStyle>
 				<Icon>
 					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 				</Icon>
 			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
 			<LineStyle>
 				<color>ff6abb66</color>
-				<width>8</width>
+				<width>4</width>
 			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
 			<BalloonStyle>
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
+				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_01C3945B3B1D753141AD">
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-				</Icon>
-			</IconStyle>
-			<LineStyle>
-				<color>ff6abb66</color>
-				<width>7.5</width>
-			</LineStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_2E98263B5A1D7530AE2A">
+	<gx:CascadingStyle kml:id="__managed_style_20269B39051D754C444E">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -69,23 +82,28 @@
 					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 				</Icon>
 			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
 			<LineStyle>
 				<color>ff6abb66</color>
-				<width>12</width>
+				<width>6</width>
 			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
 			<BalloonStyle>
 				<text><![CDATA[<h3>$[name]</h3>]]></text>
+				<displayMode>hide</displayMode>
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_099B53A29B1D7530AE2A">
+	<StyleMap id="__managed_style_0B44C658DB1D754C444E">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1C187176771D7530AE2A</styleUrl>
+			<styleUrl>#__managed_style_127181B64E1D754C444E</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2E98263B5A1D7530AE2A</styleUrl>
+			<styleUrl>#__managed_style_20269B39051D754C444E</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Folder id="1430C76D6B1D75193551">
@@ -93,7 +111,7 @@
 		<open>1</open>
 		<Placemark id="05A8E6D51B1D752F8F9C">
 			<name>Directions from Milano, Metropolitan City of Milan to Córdoba, Spain</name>
-			<styleUrl>#__managed_style_099B53A29B1D7530AE2A</styleUrl>
+			<styleUrl>#__managed_style_0B44C658DB1D754C444E</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -107,7 +125,7 @@
 		<open>1</open>
 		<Placemark id="02AA5D4C851D752F10DC">
 			<name>Directions from Córdoba, Spain to Porto, Portugal</name>
-			<styleUrl>#__managed_style_0A65C429721D753141AC</styleUrl>
+			<styleUrl>#__managed_style_04E71052011D754CE008</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -121,7 +139,7 @@
 		<open>1</open>
 		<Placemark id="0EDE1118E21D75317692">
 			<name>Directions from Porto, Portugal to Milano, Metropolitan City of Milan</name>
-			<styleUrl>#__managed_style_0A65C429721D753141AC</styleUrl>
+			<styleUrl>#__managed_style_0B44C658DB1D754C444E</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
