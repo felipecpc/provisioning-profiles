@@ -2,11 +2,11 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>Trials</name>
-	<Style id="icon-ci-10-nodesc-highlight">
+	<Style id="icon-ci-11-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-10.png</href>
+				<href>files/icon-11.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -16,11 +16,11 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="icon-ci-10-nodesc-normal">
+	<Style id="icon-ci-11-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-10.png</href>
+				<href>files/icon-11.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -30,11 +30,11 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="icon-ci-9-nodesc-highlight">
+	<Style id="icon-ci-10-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-9.png</href>
+				<href>files/icon-10.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -44,11 +44,59 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
+	<StyleMap id="icon-ci-10-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-10-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-10-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-10-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-10.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-9-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-9.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-9-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-9-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-9-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="icon-ci-8-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-8.png</href>
+				<href>files/icon-8.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -58,16 +106,6 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<StyleMap id="icon-ci-11-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-11-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-11-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="icon-ci-8-nodesc">
 		<Pair>
 			<key>normal</key>
@@ -78,11 +116,25 @@
 			<styleUrl>#icon-ci-8-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-2-nodesc-highlight">
+	<Style id="icon-ci-7-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-2.png</href>
+				<href>files/icon-7.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-6-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-6.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -102,49 +154,11 @@
 			<styleUrl>#icon-ci-7-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-6-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-6.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-11-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-11.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-4-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="icon-ci-6-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-6.png</href>
+				<href>files/icon-6.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -154,111 +168,11 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="icon-ci-7-nodesc-highlight">
+	<Style id="icon-ci-8-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-7.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-1899-0288D1-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-3-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-3.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-6-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-6-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-6-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-9-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-9.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-4-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-4.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-11-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-11.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-9-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-9-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-9-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-4-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-4.png</href>
+				<href>files/icon-8.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -278,6 +192,20 @@
 			<styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="icon-ci-5-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-5.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
 	<StyleMap id="icon-ci-5-nodesc">
 		<Pair>
 			<key>normal</key>
@@ -288,84 +216,15 @@
 			<styleUrl>#icon-ci-5-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-3-nodesc-normal">
+	<Style id="icon-ci-4-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-3.png</href>
+				<href>files/icon-4.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-7-nodesc-normal">
-		<IconStyle>
 			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-7.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-1899-0288D1-nodesc-highlight">
-		<IconStyle>
-			<Icon>
-				<href>images/icon-1.png</href>
-			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-8-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-8.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-1899-0288D1-nodesc-normal">
-		<IconStyle>
-			<Icon>
-				<href>images/icon-1.png</href>
-			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-2-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-2.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -390,20 +249,39 @@
 			<styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="line-1267FF-5000-nodesc-normal">
-		<LineStyle>
-			<color>ffff6712</color>
-			<width>5</width>
-		</LineStyle>
+	<Style id="icon-ci-9-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-9.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="icon-ci-5-nodesc-normal">
+	<Style id="icon-ci-3-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-5.png</href>
+				<href>files/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-4-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-4.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -413,16 +291,68 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<StyleMap id="icon-ci-10-nodesc">
+	<Style id="icon-ci-7-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-7.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-6-nodesc">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#icon-ci-10-nodesc-normal</styleUrl>
+			<styleUrl>#icon-ci-6-nodesc-normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#icon-ci-10-nodesc-highlight</styleUrl>
+			<styleUrl>#icon-ci-6-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="icon-ci-4-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-3-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-5-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-5.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
 	<StyleMap id="icon-ci-3-nodesc">
 		<Pair>
 			<key>normal</key>
@@ -433,11 +363,25 @@
 			<styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-5-nodesc-highlight">
+	<Style id="icon-ci-2-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-5.png</href>
+				<href>files/icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-2-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-2.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -447,135 +391,25 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Folder id="01EEF75CFD1D75018FF9">
-		<name>estate-2021-done</name>
-		<Placemark>
-			<name>Milan</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>9.189982000000001,45.464204,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Area camper e parcheggio bus anfiteatro</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>14.247949,41.087272,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Area Sosta Camper e Caravan - &quot;Estatico&quot; - Portici</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>14.351046,40.827514,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Area Sosta Camper Lago Sirino</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>15.805562,40.093247,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Piano di Lanzo</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>16.00881,39.728472,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Parking Area Camper Green Car - Palermo</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>13.342465,38.109844,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Campeggio Olimpo</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>13.53272,38.098114,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Alimena</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>14.11393,37.693307,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Noto Parking</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>15.084674,36.883581,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Avola</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>15.1539,36.916534,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parcheggio Piazza Kennedy</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>15.102538,37.688171,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Piano Provenzana</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>15.040677,37.797065,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Agritour Donato</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>15.168603,37.88469,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parcheggio universitario</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>16.600256,40.66088,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Area Camper Pacentro</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>13.987406,42.048142,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Area Camper</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>13.135883,42.943207,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parcheggio Castiglione del Lago</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>12.05486,43.129145,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Milan</name>
-			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
-			<Point>
-				<coordinates>9.189982000000001,45.464204,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+	<StyleMap id="icon-ci-11-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-11-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-11-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-1267FF-5000-nodesc-normal">
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
 	<Folder id="14404998C11D75018FF9">
 		<name>Directions from Milan to Parking Avola</name>
 		<Placemark>
