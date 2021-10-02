@@ -2,11 +2,21 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>winter_2021</name>
-	<Style id="icon-ci-10-nodesc-highlight">
+	<StyleMap id="__managed_style_0A65C429721D753141AC">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_01C3945B3B1D753141AD</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_13985520D21D753141AD</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-9-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-10.png</href>
+				<href>files/icon-9.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -26,15 +36,15 @@
 			<styleUrl>#icon-ci-10-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-9-nodesc-highlight">
+	<Style id="icon-ci-9-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-9.png</href>
+				<href>files/icon-9.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0.7</scale>
+			<scale>0</scale>
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -50,243 +60,35 @@
 			<styleUrl>#icon-ci-9-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-7-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-7.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-1-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="icon-ci-7-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-7-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-7-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-6-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-6.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-6-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-6.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-4-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-4.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-6-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-6-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-6-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_01C3945B3B1D753141AD">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+				<width>7.5</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<Style id="icon-ci-8-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-8.png</href>
+				<href>files/icon-8.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-7-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-7.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-3-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-3.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-5-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-5.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-1-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-1.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-5-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-5.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-10-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-10.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-4-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="icon-ci-5-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-5-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-5-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-4-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-4.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="line-1267FF-5000-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-3-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-3.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -296,7 +98,7 @@
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-8.png</href>
+				<href>files/icon-8.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -316,6 +118,231 @@
 			<styleUrl>#icon-ci-8-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="icon-ci-7-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-7.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-7-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-7.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-7-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-7-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-7-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-2-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-6-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-6.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-ci-4-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-5-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-5.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-5-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-5.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_13985520D21D753141AD">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+				<width>11.25</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="icon-ci-5-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-5-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-5-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-4-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-4.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-10-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-10.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-4-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-4.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-3-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-3-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-6-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-6-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-6-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="icon-ci-3-nodesc">
 		<Pair>
 			<key>normal</key>
@@ -326,25 +353,11 @@
 			<styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-9-nodesc-normal">
+	<Style id="icon-ci-6-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-9.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-2-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-2.png</href>
+				<href>files/icon-6.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -354,11 +367,55 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
+	<Style id="icon-ci-10-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-10.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="__managed_style_099B53A29B1D7530AE2A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1C187176771D7530AE2A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2E98263B5A1D7530AE2A</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1C187176771D7530AE2A">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+				<width>8</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<Style id="icon-ci-2-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-2.png</href>
+				<href>files/icon-2.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -378,11 +435,25 @@
 			<styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="icon-ci-1-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
 	<Style id="icon-ci-1-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-1.png</href>
+				<href>files/icon-1.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -392,32 +463,36 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="line-1267FF-5000-nodesc-highlight">
-		<LineStyle>
-			<color>ffff6712</color>
-			<width>7.5</width>
-		</LineStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="line-1267FF-5000-nodesc-normal">
-		<LineStyle>
-			<color>ffff6712</color>
-			<width>5</width>
-		</LineStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
+	<gx:CascadingStyle kml:id="__managed_style_2E98263B5A1D7530AE2A">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+				<width>12</width>
+			</LineStyle>
+			<PolyStyle>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<Folder id="0FE7442D851D75193551">
 		<name>Untitled layer</name>
 	</Folder>
 	<Folder id="1430C76D6B1D75193551">
 		<name>Directions from Milano, Metropolitan City of Milan to Córdoba, Spain</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="05A8E6D51B1D752F8F9C">
 			<name>Directions from Milano, Metropolitan City of Milan to Córdoba, Spain</name>
-			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+			<styleUrl>#__managed_style_099B53A29B1D7530AE2A</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -425,71 +500,81 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0193DB442E1D752F9284">
 			<name>Milano, Metropolitan City of Milan</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.1892874,45.46495119999999,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1D13EC53DC1D752F9284">
 			<name>Barcelona, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>2.1685499,41.3873966,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="030289FCAB1D752F9285">
 			<name>Margalef, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>0.7535063,41.284846,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="11C21DD8261D752F9285">
 			<name>Zaragoza, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>-0.889073,41.6488187,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2667F3F0921D752F9285">
 			<name>Madrid, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>-3.705076,40.4165207,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="035C7C070A1D752F9286">
 			<name>Albacete, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>-1.8582103,38.994263,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="133F670F161D752F9286">
 			<name>València, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>-0.3762924,39.4692268,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0EBAFD70441D752F9287">
 			<name>Mallorca, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>3.0174766,39.6953196,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="16958A23151D752F9287">
 			<name>Murcia, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>-1.1313584,37.9920589,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="07F50353731D752F9288">
 			<name>Córdoba, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-10-nodesc</styleUrl>
 			<Point>
 				<coordinates>-4.7794236,37.8881508,0</coordinates>
@@ -498,12 +583,14 @@
 	</Folder>
 	<Folder id="2D812D516F1D75193551">
 		<name>Untitled layer</name>
+		<open>1</open>
 	</Folder>
 	<Folder id="094CDC386A1D75193553">
 		<name>Directions from Córdoba, Spain to Porto, Portugal</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="02AA5D4C851D752F10DC">
 			<name>Directions from Córdoba, Spain to Porto, Portugal</name>
-			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+			<styleUrl>#__managed_style_0A65C429721D753141AC</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -511,64 +598,73 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="012D8A808F1D752F1319">
 			<name>Córdoba, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>-4.7794183,37.8881792,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1EA479B80C1D752F1319">
 			<name>Andaluzia, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>-4.7317136,37.5437694,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2CC5ECB6511D752F1319">
 			<name>Algeciras, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>-5.4562539,36.1407532,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="094ADD56021D752F131A">
 			<name>Cádiz, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>-6.2888793,36.5271437,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="151D6567A41D752F131A">
 			<name>Seville, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>-5.9844211,37.3891549,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2D58C6C8D41D752F131A">
 			<name>Faro, Portugal</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>-7.930295000000001,37.019558,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="3C93B3AFA91D752F131A">
 			<name>Lisbon, Portugal</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>-9.1393372,38.7223249,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0BE2BDF7D41D752F131B">
 			<name>Coimbra, Portugal</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>-8.410170300000001,40.2032292,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1DC83146E81D752F131B">
 			<name>Porto, Portugal</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>-8.6279824,41.1576646,0</coordinates>
@@ -577,9 +673,10 @@
 	</Folder>
 	<Folder id="02DD18E38D1D75193554">
 		<name>Directions from Porto, Portugal to Milano, Metropolitan City of Milan</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="0EDE1118E21D75317692">
 			<name>Directions from Porto, Portugal to Milano, Metropolitan City of Milan</name>
-			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+			<styleUrl>#__managed_style_0A65C429721D753141AC</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
 				<coordinates>
@@ -587,71 +684,81 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0F73E569241D753178D9">
 			<name>Porto, Portugal</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>-8.6279824,41.1576646,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0BC2E05CAE1D753178DA">
 			<name>Santiago de Compostela, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>-8.545953300000001,42.8783686,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1F0661850D1D753178DA">
 			<name>Lugo, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>-7.5573934,43.0082848,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2AF4268DDE1D753178DA">
 			<name>Oviedo, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>-5.848827300000001,43.3623683,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0C4D31D9B51D753178DB">
 			<name>Bilbao, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>-2.935126700000001,43.2626571,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="07B5E3012E1D753178DC">
 			<name>Pamplona, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>-1.6457847,42.8125251,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1B3D118AB61D753178DC">
 			<name>Lourdes, France</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>-0.0454364,43.0915079,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="24637B8A991D753178DC">
 			<name>Andorra la Vella, Andorra</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>1.5168821,42.4922412,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="03057442DA1D753178DD">
 			<name>Puigcerdà, Spain</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>1.9292924,42.4335427,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1605D25ADE1D753178DD">
 			<name>Milano, Metropolitan City of Milan</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-10-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.1892874,45.46495119999999,0</coordinates>
