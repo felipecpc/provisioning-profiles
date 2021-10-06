@@ -1,0 +1,8 @@
+{
+	"macaddr":"C8:C9:A3:D1:58:9C",
+	"alias":"Power Supply DC Devices",
+	"server":"192.168.0.180",
+	"type":["power"],
+	"internalId":"POWER-CHARGING-01",
+	"sampleInterval":60
+}
