@@ -2,39 +2,21 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>2024-2</name>
-	<Style id="icon-ci-10-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-10.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-10-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-10.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
+	<StyleMap id="icon-ci-10-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-10-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-10-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="icon-ci-9-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-9.png</href>
+				<href>files/icon-9.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -48,7 +30,7 @@
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-9.png</href>
+				<href>files/icon-9.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -58,11 +40,21 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
+	<StyleMap id="icon-ci-9-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-9-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-9-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="icon-ci-8-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-8.png</href>
+				<href>files/icon-8.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -86,7 +78,7 @@
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-7.png</href>
+				<href>files/icon-7.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -96,31 +88,39 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<StyleMap id="icon-ci-7-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-7-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-7-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="icon-ci-3-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-3-nodesc-normal">
+	<Style id="icon-ci-3-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-3.png</href>
+				<href>files/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-7-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-7.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-1-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-1.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -134,7 +134,7 @@
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-6.png</href>
+				<href>files/icon-6.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -144,11 +144,25 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
+	<Style id="icon-ci-5-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-5.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
 	<Style id="icon-ci-5-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-5.png</href>
+				<href>files/icon-5.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -168,6 +182,143 @@
 			<styleUrl>#icon-ci-6-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="line-1267FF-5000-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-ci-7-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-7-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-7-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-4-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-4.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-3-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-3.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-4-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-4.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-2-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="line-1267FF-5000-nodesc-normal">
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>5</width>
+		</LineStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-2-nodesc-normal">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-2.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="icon-ci-2-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-2-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-1-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-1.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-10-nodesc-highlight">
+		<IconStyle>
+			<scale>0.7</scale>
+			<Icon>
+				<href>files/icon-10.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
 	<StyleMap id="icon-ci-5-nodesc">
 		<Pair>
 			<key>normal</key>
@@ -178,11 +329,21 @@
 			<styleUrl>#icon-ci-5-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-4-nodesc-highlight">
+	<StyleMap id="icon-ci-1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-ci-8-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-4.png</href>
+				<href>files/icon-8.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -192,25 +353,34 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="icon-ci-4-nodesc-normal">
+	<Style id="line-1267FF-5000-nodesc-highlight">
+		<LineStyle>
+			<color>ffff6712</color>
+			<width>7.5</width>
+		</LineStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-ci-6-nodesc-highlight">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-4.png</href>
+				<href>files/icon-6.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<scale>0</scale>
+			<scale>0.7</scale>
 		</LabelStyle>
 		<BalloonStyle>
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
-	<Style id="icon-ci-1-nodesc-normal">
+	<Style id="icon-ci-10-nodesc-normal">
 		<IconStyle>
 			<scale>0.7</scale>
 			<Icon>
-				<href>images/icon-1.png</href>
+				<href>files/icon-10.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -230,189 +400,20 @@
 			<styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-3-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-3.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-9-nodesc">
+	<StyleMap id="icon-ci-3-nodesc">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#icon-ci-9-nodesc-normal</styleUrl>
+			<styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#icon-ci-9-nodesc-highlight</styleUrl>
+			<styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-ci-2-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-2.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-10-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-10-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-10-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="icon-ci-2-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-2-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="line-1267FF-5000-nodesc-normal">
-		<LineStyle>
-			<color>ffff6712</color>
-			<width>5</width>
-		</LineStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-7-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-7.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="icon-ci-1-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-ci-2-nodesc-normal">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-2.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-1-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-1.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="line-1267FF-5000-nodesc-highlight">
-		<LineStyle>
-			<color>ffff6712</color>
-			<width>7.5</width>
-		</LineStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-8-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-8.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-5-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-5.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<Style id="icon-ci-6-nodesc-highlight">
-		<IconStyle>
-			<scale>0.7</scale>
-			<Icon>
-				<href>images/icon-6.png</href>
-			</Icon>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0.7</scale>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
-	<StyleMap id="line-1267FF-5000-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Folder>
+	<Folder id="0A971C306233E36FD6FD">
 		<name>Directions from Kraków to Vuohimäki, Finland</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="01495118F633E36FE0DC">
 			<name>Directions from Kraków to Vuohimäki, Finland</name>
 			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
 			<LineString>
@@ -422,80 +423,91 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0FDE5C51F033E36FE2C0">
 			<name>Kraków</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>19.9449779,50.0646454,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0E07E415AD33E36FE2C1">
 			<name>Wieliczka Salt Mine, Daniłowicza, Wieliczka, Poland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>20.0531219,49.98410549999999,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="13CD09AF6733E36FE2C1">
 			<name>Radom, Poland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>21.1471333,51.4027237,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2E8781CBDB33E36FE2C1">
 			<name>Garliava, Kaunas District Municipality, Lithuania</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>23.8731619,54.8219051,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="36B381892933E36FE2C1">
 			<name>Riga, Latvia</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.1054944,56.9677182,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="40255C987D33E36FE2C1">
 			<name>Tallinn, Estonia</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.7536162,59.4367532,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="5BC273F01633E36FE2C1">
 			<name>Helsinki, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.9382878,60.1698671,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="67337D3F9633E36FE2C1">
 			<name>Nuuksio National Park, Nuuksiontie, Espoo, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.5566381,60.2928011,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="7EF5837C1833E36FE2C1">
 			<name>Vantaa, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>25.0377375,60.2933462,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="874CD0801033E36FE2C1">
 			<name>Vuohimäki, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-10-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.3832487,60.1120219,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder>
+	<Folder id="0AAA65DFD533E36FD8DF">
 		<name>Directions from Vuohimäki, Finland to Narvik, Norway</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="0F6AF8AB1A33E3708A22">
 			<name>Directions from Vuohimäki, Finland to Narvik, Norway</name>
 			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
 			<LineString>
@@ -505,80 +517,91 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="02713B2A6833E3708C04">
 			<name>Vuohimäki, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.3832487,60.1120219,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1FC8518B1133E3708C04">
 			<name>Evitskog, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.33896500000001,60.20052489999999,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="09F520829133E3708C05">
 			<name>Hyvinkää, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.8581284,60.629941,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="14968A6A2733E3708C05">
 			<name>Tampere, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>23.7526089,61.49714470000001,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="28FCD9542D33E3708C05">
 			<name>Jyväskylä, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>25.7463259,62.2430975,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="339AD6DB6D33E3708C05">
 			<name>Peltokangas, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.1138611,63.2429054,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="4700896CED33E3708C05">
 			<name>Rovaniemi, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>25.7293966,66.5039476,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="537406EF5C33E3708C05">
 			<name>Kutuniva, Finland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>24.0017895,67.9513286,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="6B70BB417333E3708C05">
 			<name>Hatteng, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>19.9593621,69.27073849999999,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="78AA9860DF33E3708C05">
 			<name>Narvik, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-10-nodesc</styleUrl>
 			<Point>
 				<coordinates>17.427278,68.4384847,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder>
+	<Folder id="13254A97D333E36FD8DF">
 		<name>Directions from Narvik, Norway to Helgheim, Norway</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="0974A84D0033E370B99C">
 			<name>Directions from Narvik, Norway to Helgheim, Norway</name>
 			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
 			<LineString>
@@ -588,80 +611,91 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="016C39AD1A33E370BB7E">
 			<name>Narvik, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>17.427278,68.4384847,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="1475AD8E9033E370BB7E">
 			<name>Svolvær, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>14.5682224,68.2343077,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2C006E9C8933E370BB7E">
 			<name>Reine, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>13.0887876,67.9323997,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="344572B66B33E370BB7E">
 			<name>Moskenes, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>13.0465394,67.9001841,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="4A8502A27933E370BB7E">
 			<name>Bodø, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>14.4050087,67.280325,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="5B62547E5833E370BB7E">
 			<name>Glomfjord, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>13.9442646,66.81648010000001,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0E24A3A25633E370BB7F">
 			<name>Averoy, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>7.6512786,63.07961,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="123845C4C033E370BB7F">
 			<name>Vevang, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>7.2858533,63.00128089999999,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2150265B0D33E370BB7F">
 			<name>Grodås, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>6.5242966,61.9690492,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="3AF4F35B5633E370BB7F">
 			<name>Helgheim, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-10-nodesc</styleUrl>
 			<Point>
 				<coordinates>6.401181300000001,61.5608992,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder>
+	<Folder id="2739BE076A33E36FD8DF">
 		<name>Directions from Helgheim, Norway to Morbegno, Province of Sondrio</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="0323E2B92D33E370EE7D">
 			<name>Directions from Helgheim, Norway to Morbegno, Province of Sondrio</name>
 			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
 			<LineString>
@@ -671,80 +705,91 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0E650F286733E370F061">
 			<name>Helgheim, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>6.401181300000001,61.5608992,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0FB732F7D133E370F062">
 			<name>Bergen, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>5.321863,60.3913172,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="185ADE134033E370F062">
 			<name>Stavanger, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-3-nodesc</styleUrl>
 			<Point>
 				<coordinates>5.7336428,58.9699543,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2944798C9033E370F062">
 			<name>Kristiansand, Norway</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-4-nodesc</styleUrl>
 			<Point>
 				<coordinates>8.018233199999999,58.1600546,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="3BF0DAA15033E370F062">
 			<name>Hirtshals, Denmark</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-5-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.9668288,57.58697489999999,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="49B7650BFF33E370F062">
 			<name>Hannover, Germany</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-6-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.732032,52.3758731,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="5E902B579633E370F062">
 			<name>Ulm, Germany</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-7-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.9876518,48.4010028,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0927C377BE33E370F063">
 			<name>Chur, Switzerland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-8-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.5319722,46.8507808,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="15E37F4E7933E370F063">
 			<name>Splügenpass, Rheinwald, Switzerland</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-9-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.330345299999999,46.505597,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="2B99D3DE1433E370F063">
 			<name>Morbegno, Province of Sondrio</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-10-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.569087100000001,46.1313625,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder>
+	<Folder id="383258FC2233E36FD8DF">
 		<name>Directions from Morbegno, Province of Sondrio to Lecco, Province of Lecco</name>
-		<Placemark>
+		<open>1</open>
+		<Placemark id="0F8F33946933E371247E">
 			<name>Directions from Morbegno, Province of Sondrio to Lecco, Province of Lecco</name>
 			<styleUrl>#line-1267FF-5000-nodesc</styleUrl>
 			<LineString>
@@ -754,15 +799,17 @@
 				</coordinates>
 			</LineString>
 		</Placemark>
-		<Placemark>
+		<Placemark id="0993DBF9CB33E371265F">
 			<name>Morbegno, Province of Sondrio</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-1-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.569087100000001,46.1313625,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
+		<Placemark id="00476F6D8833E3712660">
 			<name>Lecco, Province of Lecco</name>
+			<visibility>0</visibility>
 			<styleUrl>#icon-ci-2-nodesc</styleUrl>
 			<Point>
 				<coordinates>9.3951554,45.8524319,0</coordinates>
